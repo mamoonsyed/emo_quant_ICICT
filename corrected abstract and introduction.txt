@@ -1,0 +1,24 @@
+TITLE:
+
+Quantification of Investor Emotion in Financial News by Crowdsourcing The Stock Price Reaction
+creating/crowdsourcing a word emotion lexicon pertaining to financial markets
+
+ABSTRACT
+
+It is in our nature to measure the intensity of an unseen event by analyzing the impact it has had on the affected entity. Since reaction of the trader crowd in form of price movement with regards to an event approximately reflects the severity of corresponding event, words used in the financial news to describe that event should also exhibit similar degree of emotion. Thus we can assign emotional valence rating to the most relevant words in the news using this model. It means that instead of presuming the emotional valency of words, we try to propose a method to calculate the emotional temperature of news articles from stock price movement that an event has induced. Data has been gathered and processed for different companies and events from both stock exchange and news sources. The stock price data has been mathematically analyzed to quantify the impact of event, and NLP techniques have been used to extract words from news related to the event. After that, by the relation of causality these results are applied to assign valence rating to more than (3000?) PoS-tagged English stems. Thus a word-emotion association lexicon is created. Naturally, sudden movements indicate strong events and hence strong words used to define them.
+
+keywords: word emotion lexicon, investor emotion, stock market, financial news, sentic computing
+
+INTRODUCTION
+
+If you were to see a car damaged by an accident on the road, could you tell how bad was the accident? the answer would surely be in the affirmative. If we go by cause-effect terminology; in this instance, Accident is the cause and condition of the wrecked car percieved as effect, we can say that effect is almost always directly proportional to the cause.
+
+Now lets talk about stock exchanges for minute. We know from research [3] that stock price of a company reflects the emotion expressed about that company in financial news. Now using our car-accident analogy here, we can say that stock price is the car in this case and financial news is the accident that happens to it. In this research, we attempt to use this phenomenon of direct proportionality to quantify the investor emotion for English words that occur in the financial news. The deduction flow of our emotional quantification is explained in fig.1.
+
+Stock price of a company is determined by a fews things. One of them is the activity during the trading day by the investors, the stock price of a company reflects not only how much do the investors think the company is worth but also how much they think it will be worth in the future. It implies that the price of the company stock depends on the perception of the investor. In this way it can be said that stock market is almost like a living organism that reacts to several factors that act upon it [2].
+
+Investor sentiment is the overall attitude of investors toward a particular company or financial market as a whole. It is the feeling or tone of a market as revealed through the activity and price movement of the securities traded in that market. It is due to this sentiment that investor crowd acts like a swarm, and this swarm is what controls the price of any commodity that is being traded.
+
+Coming back to our objective, if we have the data regarding what events happened in the past and how they were covered by the news, then it can be loosely determined what was the impact of a particular news on the stock price of the company. Fluctuation in the stock price thus introduced is an approximate measure of the human perception regarding the severity of event. Out of many methods that can be used to measure degree of emotional severity (either in positive or negative sense) of a word. We will take stock exchange as a data source to rate the degree of severity of the language in the news article that caused the change in stock price.
+
+The aspect common in the efforts to assign the emotional rating to Human language words is that they rely on human annotators. However this research attempts to propose a system that is not only scalable and free from annotators biases but also relies on data that is being generated automatically 24/7 in all parts of the world, is easily accessible and free.

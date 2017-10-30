@@ -1,0 +1,1 @@
+minimal results extracted from the text data extracted from data_2017_10_28.csv
